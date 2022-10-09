@@ -158,7 +158,7 @@ footer{
 top: 1300px;
 width: 100%;
 min-height: 20px;
-background-color: cyan;
+background-color: rgb(122, 236, 198);
 
 
 
@@ -170,19 +170,26 @@ background-color: cyan;
 
 
 }
-#youtube{
-
-    position: absolute;
-    top:4px;
-
-
-}
-
 #insta{
 
     position: absolute;
     top:3px;
-    left:1140px;
+    left:1125px;
 
 
 }
+#mail{
+
+    position: absolute;
+    top:3px;
+    left:1150px;
+
+
+
+}
+
+
+
+
+
+
