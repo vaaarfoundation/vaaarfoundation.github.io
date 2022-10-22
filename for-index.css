@@ -170,6 +170,14 @@ background-color: rgb(122, 236, 198);
 
 
 }
+
+#youtube{
+
+    position: absolute;
+    top:3px;
+    left:1095px;
+}
+
 #insta{
 
     position: absolute;
