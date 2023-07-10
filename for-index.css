@@ -57,7 +57,7 @@ img{
     }
 section
 {
-background-image:url('temp.jpg');
+background-image:url('images/temp.jpg');
  background-size: cover;
  box-shadow:0 0 11px 7px #47343466;
 min-height: 300px;
