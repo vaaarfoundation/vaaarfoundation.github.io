@@ -1,0 +1,317 @@
+/*  
+Author: WebThemez.com
+License: https://webthemez.com/license 
+*/
+
+/*------------------- 
+# General
+---------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+h1,
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    color: #1b1e24;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+    text-rendering: optimizelegibility;
+}
+
+a {
+    color: #dc3545;
+}
+
+a:hover {
+    color: #dc3545;
+}
+
+a:focus {
+    outline: none;
+}
+
+p {
+    line-height: 1.8;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+hr {
+    border-color: #e6e7e9;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+/* Clients
+---------------------------------*/
+
+
+.client_logos {
+    background: #d28b0f;
+    padding: 48px 0;
+    margin-top: 56px;
+}
+
+.client_logos ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.client_logos ul li {
+    display: inline;
+    margin: 0 25px;
+  
+}
+
+.client_logos ul a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.page_section.team {
+    padding: 60px 0;
+}
+
+.page_section.team h6 {
+    margin-bottom: 40px;
+}
+
+
+
+
+/*------------------------------------
+  Highlight Color
+------------------------------------*/
+
+::-moz-selection {
+    color: #fff;
+    background-color:#d28b0f;
+}
+
+::selection {
+    color: #fff;
+    background-color: #d28b0f;
+}
+
+.bg-primary ::-moz-selection {
+    color:#d28b0f;
+    background-color: #fff;
+}
+
+.bg-primary ::selection {
+    color:#d28b0f;
+    background-color: #fff;
+}
+
+.nav-top a,
+.nav-top li {
+    color: #fff;
+}
+
+.hero-img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.inner-page {
+    background: #006bdf;
+}
+
+footer {
+    color: #bdbdbd;
+}
+
+footer a {
+    color: #8e8e8e;
+}
+
+.btn-outline-dark {
+    color: #6f7173;
+    border-color: #b8b8b8;
+}
+
+  
+    
+
+
+.logo a {
+    text-decoration: none;
+    mar
+}
+#logo{
+    height:77px ;
+    width:250px ;
+}
+
+
+
+.menu-area {
+    position: relative;
+    background: #fff;
+}
+
+
+
+.bg-primary,
+.btn-primary {
+    color: #fff;
+    border-color: #dc3545 !important;
+    background-color: #dc3545 !important;
+}
+
+.btn-outline-primary {
+    color: #dc3545;
+    background-color: transparent !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #dc3545 !important;
+}
+
+.bg-overlay,
+.hero-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff !important;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.text-primary,
+.page-link {
+    color: #dc3545 !important;
+}
+
+.hero-img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.hero-content {}
+
+.inner-page {
+    background: #006bdf;
+}
+
+.price-card .card-body ul li {
+    line-height: 38px;
+}
+
+.contact-info i {
+    font-size: 24px;
+}
+
+.team-dp ul {
+    display: bock;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.team-dp {
+    text-align: center;
+    display: bock;
+}
+
+.portfolio-menu ul li {
+    margin: 0px 22px 8px;
+    border: none;
+    border-bottom: 4px solid;
+    border-radius: 0;
+    padding: 10px 4px;
+}
+
+.portfolio-menu ul li.active,
+.portfolio-menu ul li:hover {
+    margin: 0px 22px 8px;
+    border: none;
+    border-bottom: 4px solid;
+    border-color: #dc3545 !important;
+    border-radius: 0;
+    padding: 10px 4px;
+}
+
+.main-footer li {
+    line-height: 32px;
+}
+
+.inner-page-header {
+    background: #dc3545;
+    padding: 0;
+}
+
+.sub-text {
+    font-size: 16px;
+}
+
+.nav-top-contact li {
+    font-size: 13px;
+}
+
+.contactIcons .fa {
+    font-size: 34px;
+    padding: 32px;
+    background: #ebebeb;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.copyrights {
+    font-size: 13px !important;
+}
+
+@media (max-width: 991px) {
+    .hero-img {
+        background-position: 74%;
+    }
+}
