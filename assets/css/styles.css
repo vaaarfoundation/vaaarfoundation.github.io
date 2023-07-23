@@ -86,6 +86,7 @@ h6 {
 
 .client_logos {
     background: #d28b0f;
+    border-radius: 10px;
     padding: 48px 0;
     margin-top: 56px;
 }
@@ -108,13 +109,7 @@ h6 {
     margin: 0 20px;
 }
 
-.page_section.team {
-    padding: 60px 0;
-}
 
-.page_section.team h6 {
-    margin-bottom: 40px;
-}
 
 
 
