@@ -27,7 +27,7 @@ body {
     color: #1b1e24;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga", "kern";
+    /* -moz-font-feature-settings: "liga", "kern"; */
     text-rendering: optimizelegibility;
 }
 
@@ -139,8 +139,9 @@ header.main-header {
 
 .mainNav li a:hover,
 .mainNav li.menu-active>a {
-    background: #d28b0f !important;
-    border-radius: 17px;
+    background: #bc7e13 !important;
+    border-radius: 10px;
+  
     color: #fff;
 }
 
@@ -170,7 +171,7 @@ header.main-header {
     background: none;
 }
 
-.menu-toggle #menu-btn {}
+/* .menu-toggle #menu-btn {} */
 
 .mainNav ul li a ul li a {
     color: #333;

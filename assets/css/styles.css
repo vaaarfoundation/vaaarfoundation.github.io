@@ -27,7 +27,7 @@ body {
     color: #1b1e24;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga", "kern";
+    /* -moz-font-feature-settings: "liga", "kern"; */
     text-rendering: optimizelegibility;
 }
 
@@ -146,7 +146,9 @@ h6 {
 .nav-top a,
 .nav-top li {
     color: #fff;
+    
 }
+
 
 .hero-img {
     background-repeat: no-repeat;
@@ -177,7 +179,7 @@ footer a {
 
 .logo a {
     text-decoration: none;
-    mar
+    
 }
 #logo{
     height:77px ;
@@ -196,8 +198,8 @@ footer a {
 .bg-primary,
 .btn-primary {
     color: #fff;
-    border-color: #dc3545 !important;
-    background-color: #dc3545 !important;
+    border-color: #ea1228 !important;
+    background-color: #4f4c4d !important;
 }
 
 .btn-outline-primary {
@@ -238,7 +240,7 @@ footer a {
     background-size: cover;
 }
 
-.hero-content {}
+/* .hero-content {} */
 
 .inner-page {
     background: #006bdf;
@@ -286,7 +288,7 @@ footer a {
 }
 
 .inner-page-header {
-    background: #dc3545;
+    background: #580234;
     padding: 0;
 }
 

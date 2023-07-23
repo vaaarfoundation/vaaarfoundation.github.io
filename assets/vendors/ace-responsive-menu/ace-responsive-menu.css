@@ -44,7 +44,7 @@ ul {
 .ace-responsive-menu>li {
     display: block;
     margin: 0;
-    padding: 0;
+    padding: 7px;
     border: 0px;
     float: left;
 }
