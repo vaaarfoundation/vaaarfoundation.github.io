@@ -109,9 +109,22 @@ h6 {
     margin: 0 20px;
 }
 
+.header-text{
+    color:#d28b0f ;
+    font-style: oblique;
+ 
+    
+}
 
-
-
+.sub-header-text{
+    color: #ea1228;
+   
+  
+}
+.bg-color-p{
+    background-color: #95969a;
+    border-radius: 15px;
+}
 
 
 /*------------------------------------
