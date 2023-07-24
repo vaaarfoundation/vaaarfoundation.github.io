@@ -203,11 +203,17 @@ footer a {
 
 
 
-.bg-primary,
-.btn-primary {
+.bg-primary{
     color: #fff;
     border-color: #ea1228 !important;
     background-color: #4f4c4d !important;
+
+}
+.btn-primary {
+    color: #fff;
+    border-color: #ea1228 !important;
+    background-color: #d40d3b !important;
+    
 }
 
 .btn-outline-primary {
