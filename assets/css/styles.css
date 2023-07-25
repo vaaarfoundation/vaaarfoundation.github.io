@@ -85,10 +85,10 @@ h6 {
 
 
 .client_logos {
-    background: #d28b0f;
-    border-radius: 10px;
-    padding: 48px 0;
-    margin-top: 56px;
+    background: #f4dfbb;
+    border-radius: 15px;
+    padding: 15px ;
+    margin-top: 25px;
 }
 
 .client_logos ul {
@@ -102,6 +102,12 @@ h6 {
     display: inline;
     margin: 0 25px;
   
+}
+
+.client_logos-img{
+    padding: 12px;
+    background-color: #f5e08e;
+    border-radius: 20px;
 }
 
 .client_logos ul a {
@@ -121,10 +127,7 @@ h6 {
    
   
 }
-.bg-color-p{
-    background-color: #95969a;
-    border-radius: 15px;
-}
+
 
 
 /*------------------------------------
