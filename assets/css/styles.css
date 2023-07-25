@@ -106,7 +106,7 @@ h6 {
 
 .client_logos-img{
     padding: 12px;
-    background-color: #f5e08e;
+    background-color: #dfba27;
     border-radius: 20px;
 }
 
@@ -123,11 +123,14 @@ h6 {
 }
 
 .sub-header-text{
-    color: #ea1228;
+    color: #88539a;
    
   
 }
-
+.team-bg{
+    background-color: #f5e08e;
+    b
+}
 
 
 /*------------------------------------
