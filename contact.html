@@ -179,23 +179,23 @@
 		
 		  <form class="contact1-form validate-form" onsubmit="Send(); reset(); return false;">
 			<div class="wrap-input1 validate-input" data-validate="Name is required">
-				<input class="input1" type="text" name="name" placeholder="Name" id="Name">
+				<input class="input1" type="text" name="name" placeholder="Name" id="Name" required>
 				<span class="shadow-input1"></span>
 			</div>
-			<div class="wrap-input1 validate-input" data-validate="Valid Phone is required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-				<input class="input1" type="number" name="phone" placeholder="Phone" id="Contact">
+			<div class="wrap-input1 validate-input" data-validate="Valid Phone is required">
+				<input class="input1" type="number" name="phone" placeholder="Phone" id="Contact"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 				<span class="shadow-input1"></span>
 			</div>
 			<div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-				<input class="input1" type="text" name="email" placeholder="Email" id="Email">
+				<input class="input1" type="text" name="email" placeholder="Email" id="Email"  required>
 				<span class="shadow-input1"></span>
 			</div>
 			<div class="wrap-input1 validate-input" data-validate="Subject is required">
-				<input class="input1" type="text" name="subject" placeholder="Subject" id="subject">
+				<input class="input1" type="text" name="subject" placeholder="Subject" id="subject" required>
 				<span class="shadow-input1"></span>
 			</div>
 			<div class="wrap-input1 validate-input" data-validate="Message is required">
-				<textarea class="input1" name="message" placeholder="Message" id="message"></textarea>
+				<textarea class="input1" name="message" placeholder="Message" id="message" required></textarea>
 				<span class="shadow-input1"></span>
 			</div>
 			<div class="container-contact1-form-btn">
