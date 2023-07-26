@@ -170,7 +170,7 @@
         </div>
           <form class="text-center" action="#">
             <div class="row text-center">
- <div  class="col-lg-5 class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=380&amp;hl=en&amp;q=nallasopara east &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Game</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:380px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:380px;}.gmap_iframe {height:380px!important;}</style></div>
+ <div  class="col-lg-5 mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=380&amp;hl=en&amp;q=nallasopara east &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:380px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:380px;}.gmap_iframe {height:380px!important;}</style></div>
  
 
 
@@ -180,6 +180,10 @@
 		  <form class="contact1-form validate-form">
 			<div class="wrap-input1 validate-input" data-validate="Name is required">
 				<input class="input1" type="text" name="name" placeholder="Name">
+				<span class="shadow-input1"></span>
+			</div>
+			<div class="wrap-input1 validate-input" data-validate="Valid Phone is required" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+				<input class="input1" type="number" name="phone" placeholder="Phone">
 				<span class="shadow-input1"></span>
 			</div>
 			<div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
