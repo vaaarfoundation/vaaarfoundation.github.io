@@ -727,21 +727,7 @@ footer a {
     margin-bottom: 0;
 }
 
-p.help-block,
-p.help-block ul {
-    float: left;
-    margin: 0;
-    padding: 0;
-}
 
-p.help-block li {
-    float: left;
-    margin: 0px 0 10px 0;
-    font-style: italic;
-    font-size: 13px;
-    list-style: none;
-    color: red;
-}
 
 /*----------------------------------
   Blockquote-v1
