@@ -1,8 +1,8 @@
 /* 
 Ace Responsive Menu Plugin
 Version: 1.0
-Author: Samson.Onna 
-Email : samson3d@gmail.com
+Author: shubham-maurya 
+Email : shubhammaurya8828@gmail.com
 ----------------------------------------*/
 
 (function($) {
