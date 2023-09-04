@@ -1,2 +1,2 @@
 # vaaarfoundation.github.io
-shubham maurya | VAAAR_FOUNDATION
+Shubham Maurya | VAAAR_FOUNDATION
