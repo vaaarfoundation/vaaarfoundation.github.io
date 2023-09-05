@@ -101,7 +101,7 @@ h6 {
 }
 
 header.main-header {
-    background: #f2f2f2;
+    background: #ffffff;
     float: left;
     width: 100%;
     position: relative;
@@ -109,8 +109,7 @@ header.main-header {
 
 .logo {
     float: left;
-    font-size: 30px;
-    color: #222;
+ 
 }
 
 .mainNav {
@@ -124,10 +123,10 @@ header.main-header {
 }
 
 .mainNav ul li a {
-    color: #333;
+    color: #080808;
     display: block;
-    font-size: 16px;
-    padding: 31px 15px;
+    font-size: 18px;
+    padding: 30px 12px;
     text-transform: capitalize;
     font-weight: 600;
     line-height: normal;
@@ -135,14 +134,14 @@ header.main-header {
 
 .mainNav li a:hover,
 .mainNav li.menu-active>a {
-    background: #bc7e13 !important;
+    background: #d6d30e !important;
     border-radius: 10px;
   
     color: #fff;
 }
 
 .mainNav li ul.sub-menu {
-    background: #eaeaea;
+    background: #f7faf7;
 }
 
 .mainNav li ul.sub-menu li a {
@@ -179,7 +178,7 @@ header.main-header {
 }
 
 .main-footer {
-    padding: 70px 0 !important;
+    padding: 30px 0px !important;
 }
 
 .menu-toggle #menu-btn {
