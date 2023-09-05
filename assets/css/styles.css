@@ -682,5 +682,13 @@ textarea.input1+.shadow-input1 {
       
     }
 }
+/* bank heading */
 
+.bank-heading
+{
+    background-color: #0072ff;
+    margin-top: -2px;
+    font-size: 45px;
+    border-radius: 10px;
 
+}
