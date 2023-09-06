@@ -141,16 +141,16 @@ h6 {
 
 ::selection {
     color: #fff;
-    background-color: #d28b0f;
+    background-color: #6ef5cc;
 }
 
 .bg-primary ::-moz-selection {
-    color:#d28b0f;
+    color:#fff1d8;
     background-color: #fff;
 }
 
 .bg-primary ::selection {
-    color:#d28b0f;
+    color:#9bfff7;
     background-color: #fff;
 }
 
@@ -188,16 +188,8 @@ footer a {
     
 
 
-.logo a {
-    text-decoration: none;
-    
-}
-#logo{
-    /* margin-top: 6px; */
-    height:70px ;
-    width:230px ;
-  
-}
+
+
 
 
 
@@ -211,7 +203,7 @@ footer a {
 .bg-primary{
     color: #fff;
     border-color: #ea1228 !important;
-    background-color: #4f4c4d !important;
+    background-color: #4d863c !important;
 
 }
 .btn-primary {
@@ -307,7 +299,7 @@ footer a {
 }
 
 .inner-page-header {
-    background: #580234;
+    background: #537003;
     padding: 0;
 }
 
@@ -686,7 +678,7 @@ textarea.input1+.shadow-input1 {
 
 .bank-heading
 {
-    background-color: #0072ff;
+    background-color: #fadc7b;
     margin-top: -2px;
     font-size: 45px;
     border-radius: 10px;
