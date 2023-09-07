@@ -115,7 +115,7 @@ header.main-header {
 .mainNav {
     float: right;
     display: inline-block;
-    margin-right:-70px ;
+  
 }
 
 .mainNav ul {
@@ -206,7 +206,7 @@ header.main-header {
         position: absolute;
         top: 83px;
         left: 0;
-        right: 0;
+        right:0px;
         background: #fff !important;
         z-index: 999;
     }
@@ -1477,20 +1477,22 @@ ul.price-options li {
 ------------------------------------*/
 
 .wt-section {
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
     float: left;
     width: 100%;
-    background: #fff;
+    background: #ccedf5;
 }
 
 .wt-section-top {
-    padding-top: 6.25rem;
+    padding-top: 5.25rem;
 }
 
 .wt-section-bottom {
-    padding-bottom: 6.25rem;
+    padding-bottom: 5.25rem;
 }
+
+
 
 /*----------------------------------
   Pull

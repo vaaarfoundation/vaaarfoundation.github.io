@@ -125,8 +125,8 @@ h6 {
 }
 .team-bg
 {
-    background-color: #f5e08e;
-    b
+    background-color: #67eafc9a;
+    
 }
 
 
@@ -136,12 +136,12 @@ h6 {
 
 ::-moz-selection {
     color: #fff;
-    background-color:#d28b0f;
+    background-color:#ffc868;
 }
 
 ::selection {
-    color: #fff;
-    background-color: #6ef5cc;
+    color: #000000;
+    background-color: #78e4ff;
 }
 
 .bg-primary ::-moz-selection {
