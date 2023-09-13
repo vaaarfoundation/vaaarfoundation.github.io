@@ -1,6 +1,10 @@
 # vaaarfoundation.github.io
-Shubham Maurya | VAAAR_FOUNDATION
-Effective Date: 08|09|2023
+VAAAR_FOUNDATION
+
+
+
+
+Effective Date: 13|09|2023
 
 1. Introduction
 
@@ -49,7 +53,7 @@ If you have any questions or concerns about these Terms or our services, please 
 VAAAR Foundation
 [dhaniv talav nallasopara east MH IND]
 [OFFICIALVAAAR@GMAIL.COM]
-[08|09|2023]
+[13|09|2023]
 
 10. Changes to Terms
 
@@ -59,4 +63,4 @@ By using our services, you agree to these Terms and any future modifications.
 
 Thank you for supporting VAAAR Foundation in our mission to help those in need.
 
-Last Updated: [Insert Date]
+Last Updated: [13|09|2023]
