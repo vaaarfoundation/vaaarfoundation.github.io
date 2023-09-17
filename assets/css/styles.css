@@ -688,4 +688,62 @@ textarea.input1+.shadow-input1 {
 
 }
 
+/* gallery images start */
+.gallery{
+    min-height: 100vh;
+    background:#eee;
+    padding-bottom: 100px;
+}
 
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px 0;
+    list-style: none;
+}
+
+
+
+.gallery .controls .buttons{
+    margin-top:67px;
+    padding: 13px;
+margin:9px;
+  cursor: pointer;
+ border-radius:8px ;
+ background-color: #bdbdbd;
+ display:inline-block;
+ 
+}
+
+.gallery .controls .buttons.active{
+    background:rgb(77, 164, 247);
+    color:#fff;
+}
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image{
+    height: 260px;
+    width: 360px;
+    overflow: hidden;
+    border:15px solid #0f84944f;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+
+.gallery .image-container .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+    transform: scale(1.4);
+}
