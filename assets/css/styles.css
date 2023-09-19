@@ -672,7 +672,7 @@ textarea.input1+.shadow-input1 {
 
 @media (max-width:990px) {
     #preloader {
-       background-size: 960px ;
+       background-size: 1000px ;
        position: fixed;
       
     }
