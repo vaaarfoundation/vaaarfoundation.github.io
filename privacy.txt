@@ -1,1 +1,58 @@
-<html> working on it
+At VAAAR FOUNDATION, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal data when you visit our website, interact with our services, or support our mission. By using our website and services, you consent to the practices described in this Privacy Policy.
+
+1. Information We Collect
+
+We may collect the following types of personal information:
+
+1.1. Personal Identifiable Information (PII): This may include your name, email address, postal address, phone number, and other contact details.
+
+1.2. Donation Information: If you make a donation to VAAAR FOUNDATION, we may collect payment information, such as credit card details and billing information. We do not store payment information; it is securely processed by our payment partners.
+
+1.3. Volunteer Information: If you choose to volunteer with us, we may collect information about your skills, experience, and availability.
+
+1.4. Information from Cookies and Tracking Technologies: We may use cookies and similar tracking technologies to collect information about your interactions with our website, including your IP address, browser type, and pages viewed. You can manage your cookie preferences through your browser settings.
+
+2. How We Use Your Information
+
+We use your personal information for the following purposes:
+
+2.1. Providing Services: To deliver our services, including free education and support to individuals in need.
+
+2.2. Communications: To send you updates, newsletters, and information about our activities, events, and fundraising efforts, as well as to respond to your inquiries.
+
+2.3. Donations: To process donations and provide donation-related information, including tax receipts.
+
+2.4. Volunteer Opportunities: To match volunteers with suitable opportunities and facilitate their participation.
+
+2.5. Analytics: To analyze and improve our website's performance, user experience, and effectiveness of our services.
+
+3. Sharing Your Information
+
+We may share your personal information with the following parties:
+
+3.1. Service Providers: We may engage trusted third-party service providers to assist us in delivering our services, processing donations, and analyzing website performance. These providers are obligated to protect your information and only use it for the purposes specified.
+
+3.2. Legal Compliance: We may share information as required by applicable laws and regulations or in response to valid legal requests, such as court orders or government inquiries.
+
+4. Your Choices
+
+4.1. Access and Correction: You may request access to and correction of your personal information held by VAAAR FOUNDATION.
+
+4.2. Opt-Out: You can opt out of receiving marketing communications from us by following the unsubscribe instructions provided in our emails.
+
+5. Data Security
+
+We take reasonable precautions to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of data transmission over the internet or electronic storage is 100% secure, so we cannot guarantee absolute security.
+
+6. Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. The most current version will be posted on our website with the date of the last revision.
+
+7. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at:
+
+VAAAR FOUNDATION
+[8828724893]
+
+Thank you for your trust in VAAAR FOUNDATION. Your privacy and the security of your personal information are of utmost importance to us as we work towards our mission of helping those in need and providing free education.
