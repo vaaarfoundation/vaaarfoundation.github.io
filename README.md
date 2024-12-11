@@ -1,4 +1,4 @@
-vaaar-trust official website
+vaaar-Foundation official website
 
 https://vaaarfoundation.github.io/ local
 

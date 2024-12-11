@@ -7,19 +7,19 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         @if($page->getUrl() == $page->baseUrl . '/')
-        <title>Vaaar Trust - Lets help together</title>
+        <title>Vaaar Foundation - Lets help together</title>
     @elseif($page->getUrl() == $page->baseUrl . "/about")
-        <title>Vaaar Trust - About</title>
+        <title>Vaaar Foundation - About</title>
     @elseif($page->getUrl() == $page->baseUrl . "/events")
-        <title>Vaaar Trust - Events</title>
+        <title>Vaaar Foundation - Events</title>
         @elseif($page->getUrl() == $page->baseUrl . "/bankdetails")
-        <title>Vaaar Trust - Bank Details</title>
+        <title>Vaaar Foundation - Bank Details</title>
         @elseif($page->getUrl() == $page->baseUrl . "/contact")
-        <title>Vaaar Trust - Contact Us</title>
+        <title>Vaaar Foundation - Contact Us</title>
         @elseif($page->getUrl() == $page->baseUrl . "/gallery")
-        <title>Vaaar Trust - Gallery</title>
+        <title>Vaaar Foundation - Gallery</title>
         @else
-        <title>Vaaar Trust - Notice</title>
+        <title>Vaaar Foundation - Notice</title>
     @endif
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />

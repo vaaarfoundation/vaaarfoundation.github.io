@@ -79,7 +79,7 @@
 
         <!-- Copyright Section -->
         <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-            <p>VAAAR TRUST</p>
+            <p>VAAAR Foundation</p>
             <p><script>document.write(new Date().getFullYear())</script> © All Rights Reserved</p>
             <p>Develop By <a href="https://nexbytes.rf.gd" class="text-blue-400 hover:text-blue-300">Nexbytes Technologies</a></p>
         </div>
