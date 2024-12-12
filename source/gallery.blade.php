@@ -6,6 +6,18 @@
 
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
+        @php
+        $options = array(
+            'http' => array(
+                'method' => 'GET',
+                'header' => 'api-key: bd6fd14194397655f420e7dcde9012524d8cec67de577f4e250b43843f49a224'
+            )
+        );
+        $context = stream_context_create($options);
+        $galleries = json_decode(file_get_contents('https://vaaar-backend.onrender.com/api/galleries', false, $context), true);
+        $galleries = array_reverse($galleries);
+        $uniqueTitles = array_unique(array_column($galleries, 'title'));
+    @endphp
         <!-- Filter Controls -->
         <div class="flex justify-center mb-8">
             <ul class="flex flex-wrap gap-4">
@@ -14,71 +26,35 @@
                         All
                     </button>
                 </li>
+                @foreach ($uniqueTitles as $title)
                 <li>
-                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-700 hover:bg-blue-600 hover:text-white transition duration-300" data-filter="talav">
-                        Dhaniv Talav
+                    <button class="filter-btn px-6 py-2 rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition duration-300" data-filter="{{$title}}">
+                        {{ $title }}
                     </button>
                 </li>
+            @endforeach
             </ul>
         </div>
 
         <!-- Gallery Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="gallery-container">
-            <!-- Logo Image -->
-            <div class="gallery-item all transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/4ZxrN5B/vaar-foundation-logowith-back.png" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/4ZxrN5B/vaar-foundation-logowith-back.png" alt="Vaaar Foundation Logo" class="w-full h-64 object-cover">
-                </a>
-            </div>
+            
 
-            <!-- Talav Images -->
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/VWSx57b/IMG-20230910-WA0014.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/VWSx57b/IMG-20230910-WA0014.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
+            @if(count($galleries) > 0)
+            @foreach($galleries as $gallery)
+            <div class="gallery-item {{ $gallery['title'] }} transform hover:scale-105 transition duration-300">
+                <a href="{{$gallery['image_url']}}" class="block rounded-lg overflow-hidden shadow-lg">
+                    <img src="{{$gallery['image_url']}}" alt="{{ $gallery['title'] }}" class="w-full h-64 object-cover">
                 </a>
             </div>
+            @endforeach
+            @else
+                <div class="text-center text-gray-700">
+                    There is no record.
+                </div>
+            @endif
 
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/k0HZbhp/t1.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/k0HZbhp/t1.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/fx27cY9/t4.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/fx27cY9/t4.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/f91WXNT/t8.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/f91WXNT/t8.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/MsrDQf3/t7.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/MsrDQf3/t7.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/W0rqJNJ/Whats-App-Image-2023-09-19-at-19-34-26.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/W0rqJNJ/Whats-App-Image-2023-09-19-at-19-34-26.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/hW83sRv/t6.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/hW83sRv/t6.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
-
-            <div class="gallery-item talav transform hover:scale-105 transition duration-300">
-                <a href="https://i.ibb.co/k57crct/t3.jpg" class="block rounded-lg overflow-hidden shadow-lg">
-                    <img src="https://i.ibb.co/k57crct/t3.jpg" alt="Dhaniv Talav" class="w-full h-64 object-cover">
-                </a>
-            </div>
+          
         </div>
     </div>
 </section>
