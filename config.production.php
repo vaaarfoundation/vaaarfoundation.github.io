@@ -2,7 +2,7 @@
 
 return [
     'production' => true,
-    'api_url'=>'https://vaaar-backend.onrender.com' ,
+    'api_url'=>'https://vaaar-backend.vercel.app' ,
     'baseUrl' => 'https://vaaarfoundation.github.io'
    
    
