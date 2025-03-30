@@ -14,7 +14,7 @@
                 )
             );
             $context = stream_context_create($options);
-            $notices = json_decode(file_get_contents('https://vaaar-backend.onrender.com/api/notices', false, $context), true);
+            $notices = json_decode(file_get_contents('https://vaaar-backend.vercel.app/api/notices', false, $context), true);
             $notices = array_reverse($notices);
         @endphp
         @if(count($notices) > 0)
