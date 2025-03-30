@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
 
             try {
-                const response = await fetch('https://vaaar-backend.onrender.com/api/forms', {
+                const response = await fetch('https://vaaar-backend.vercel.app/api/forms', {
                     method: 'POST',
                     headers: {
                         'api-key':'bd6fd14194397655f420e7dcde9012524d8cec67de577f4e250b43843f49a224',
