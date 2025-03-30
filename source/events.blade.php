@@ -15,7 +15,7 @@
             )
         );
         $context = stream_context_create($options);
-        $events = json_decode(file_get_contents('https://vaaar-backend.onrender.com/api/events', false, $context), true);
+        $events = json_decode(file_get_contents('https://vaaar-backend.vercel.app/api/events', false, $context), true);
         $events = array_reverse($events);
     @endphp
     @if(count($events) > 0)
