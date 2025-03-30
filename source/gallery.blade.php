@@ -14,7 +14,7 @@
             )
         );
         $context = stream_context_create($options);
-        $galleries = json_decode(file_get_contents('https://vaaar-backend.onrender.com/api/galleries', false, $context), true);
+        $galleries = json_decode(file_get_contents('https://vaaar-backend.vercel.app/api/galleries', false, $context), true);
         $galleries = array_reverse($galleries);
         $uniqueTitles = array_unique(array_column($galleries, 'title'));
     @endphp
